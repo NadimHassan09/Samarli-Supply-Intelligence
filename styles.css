@@ -343,8 +343,8 @@ body {
 }
 
 .section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 2.75rem;
+    font-weight: 800;
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
@@ -378,13 +378,14 @@ body {
 }
 
 .feature-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
 
 .feature-text {
+    font-size: 1rem;
     color: var(--text-light);
     line-height: 1.8;
 }
@@ -458,15 +459,17 @@ body {
 }
 
 .icon-text h4 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--white);
     margin-bottom: 0.5rem;
 }
 
 .icon-text p {
+    font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.9);
     margin: 0;
+    line-height: 1.7;
 }
 
 /* Override section title color for dark background sections */
@@ -539,13 +542,14 @@ body {
 }
 
 .step-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
 
 .step-text {
+    font-size: 1rem;
     color: var(--text-light);
     line-height: 1.8;
 }
@@ -619,13 +623,14 @@ body {
 }
 
 .who-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    color: var(--primary-color);
+    color: var(--white);
     margin-bottom: 1rem;
 }
 
 .who-text {
+    font-size: 1rem;
     color: var(--text-light);
     line-height: 1.8;
 }
@@ -655,7 +660,7 @@ body {
 }
 
 .cta-text {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin-bottom: 2.5rem;
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.8;
@@ -1013,7 +1018,8 @@ textarea.form-control {
     }
     
     .section-title {
-        font-size: 2rem;
+        font-size: 2.25rem;
+        font-weight: 800;
     }
     
     .hero-title {
@@ -1029,14 +1035,38 @@ textarea.form-control {
     }
     
     .cta-text {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .feature-title {
-        font-size: 1.35rem;
+        font-size: 1.2rem;
     }
     
     .feature-text {
+        font-size: 0.95rem;
+    }
+    
+    .step-title {
+        font-size: 1.2rem;
+    }
+    
+    .step-text {
+        font-size: 0.95rem;
+    }
+    
+    .icon-text h4 {
+        font-size: 1.15rem;
+    }
+    
+    .icon-text p {
+        font-size: 0.9rem;
+    }
+    
+    .who-title {
+        font-size: 1.15rem;
+    }
+    
+    .who-text {
         font-size: 0.95rem;
     }
 }
@@ -1074,15 +1104,40 @@ textarea.form-control {
     }
     
     .section-title {
-        font-size: 2.25rem;
+        font-size: 2.5rem;
+        font-weight: 800;
     }
     
     .feature-title {
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
     
     .feature-text {
+        font-size: 1rem;
+    }
+    
+    .step-title {
+        font-size: 1.25rem;
+    }
+    
+    .step-text {
+        font-size: 1rem;
+    }
+    
+    .icon-text h4 {
+        font-size: 1.2rem;
+    }
+    
+    .icon-text p {
         font-size: 0.95rem;
+    }
+    
+    .who-title {
+        font-size: 1.2rem;
+    }
+    
+    .who-text {
+        font-size: 1rem;
     }
     
     .cta-title {
@@ -1090,7 +1145,7 @@ textarea.form-control {
     }
     
     .cta-text {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     /* Adjust dots pattern for tablets */
@@ -1159,7 +1214,8 @@ textarea.form-control {
     }
     
     .section-title {
-        font-size: 1.75rem;
+        font-size: 2rem;
+        font-weight: 800;
     }
     
     .feature-card {
@@ -1272,19 +1328,44 @@ textarea.form-control {
     }
     
     .hero-text {
-        font-size: 1rem;
+        font-size: 0.95rem;
         line-height: 1.6;
     }
     
     .section-title {
-        font-size: 1.75rem;
+        font-size: 2rem;
+        font-weight: 800;
     }
     
     .feature-title {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
     
     .feature-text {
+        font-size: 0.9rem;
+    }
+    
+    .step-title {
+        font-size: 1.15rem;
+    }
+    
+    .step-text {
+        font-size: 0.9rem;
+    }
+    
+    .icon-text h4 {
+        font-size: 1.1rem;
+    }
+    
+    .icon-text p {
+        font-size: 0.85rem;
+    }
+    
+    .who-title {
+        font-size: 1.1rem;
+    }
+    
+    .who-text {
         font-size: 0.9rem;
     }
     
@@ -1293,7 +1374,7 @@ textarea.form-control {
     }
     
     .cta-text {
-        font-size: 1rem;
+        font-size: 0.95rem;
         line-height: 1.6;
     }
     
